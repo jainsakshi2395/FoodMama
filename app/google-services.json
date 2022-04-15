@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1020933439939",
+    "firebase_url": "https://foodmama-cdf7d-default-rtdb.firebaseio.com",
+    "project_id": "foodmama-cdf7d",
+    "storage_bucket": "foodmama-cdf7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020933439939:android:e90b0ed3b1970e53fdbd76",
+        "android_client_info": {
+          "package_name": "com.dataflair.fooddeliveryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020933439939-uur3pr6p2bpkk32p8dgjeguidpgpp1gl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dataflair.fooddeliveryapp",
+            "certificate_hash": "458c3814026657bcce7d9fb30c5041e71775e864"
+          }
+        },
+        {
+          "client_id": "1020933439939-rdn7iceoe90pqv7hg16qdq37qkkcfbke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmUFm9ANrGwzFuGN8pEYPEBMNunl-_o4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020933439939-rdn7iceoe90pqv7hg16qdq37qkkcfbke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
