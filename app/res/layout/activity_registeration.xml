@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please,Fill all the details and Continue"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/idEdtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:inputType="textEmailAddress"
+        android:hint="User Name"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/idTILPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/idTILCnfPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/idRegBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/idTVLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already a User? Login"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+</LinearLayout>
